@@ -1,0 +1,63 @@
+.Pic-of-day{
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    box-sizing: border-box;
+    padding: 14rem;
+}
+
+.Filter{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .6);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.PodFunctionalities{
+    position: relative;
+    z-index: 3;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.ToggleBtn{
+    position: relative;
+    z-index: 3;
+    margin: 10px;
+    background-color: #282c34;
+    padding: 12px;
+    border-radius: 24px;
+    box-shadow: 4px 5px 10px black, -4px -5px 10px rgba(255, 255, 255, .4);
+    transition: .3s;
+}
+.ToggleBtn:hover{
+    cursor: pointer;
+    box-shadow: 1px 2px 5px black, -1px -2px 5px rgba(255, 255, 255, .4);
+}
+.ToggleBtn:active{
+    box-shadow: none;
+    transition: .15s;
+}
+
+.Explanation{
+    position: relative;
+    z-index: 2;
+    padding: 5rem 10rem;
+    background-color: rgba(255, 255, 255, .1);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    text-align: left;
+}
+
+p{
+    line-height: 1.6rem;
+}
+
+.Date{
+    text-align: right;
+    font-style: italic;
+}
